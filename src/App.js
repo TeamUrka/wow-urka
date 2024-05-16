@@ -80,7 +80,7 @@ function Bomb(props) {
 
 function Status(props) {
   const [loc] = useLocation()
-  const text = loc === "/" ? "/knot" : loc
+  const text = loc === "/" ? "/urka" : loc
   return (
     <Text fontSize={14} letterSpacing={-0.025} font={suspend(inter).default} color="black" {...props}>
       {text}
